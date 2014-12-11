@@ -1,5 +1,5 @@
-<tool id="trtr" name="TRTR Trim Reads of Tandem Repeats">
-  <description>Recommended before calling SNPs. </description>
+<tool id="trtr" name="TRTR">
+  <description>Trim Reads of Tandem Repeat in a fastq file. </description>
   <command>trtr $input $max_repeat $aggressive > $output</command>
   <inputs>
     <param format="fastq" name="input" type="data" label="Source file"/>
