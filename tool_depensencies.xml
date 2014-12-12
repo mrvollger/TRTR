@@ -1,0 +1,3 @@
+<requirements>
+	<requirement type="set_environment">tools/myTools</requirement>
+</requirements>
